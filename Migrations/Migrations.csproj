@@ -54,9 +54,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMigration.cs" />
     <Compile Include="Components\DatabaseManager.cs" />
     <Compile Include="Components\ScriptExecutor.cs" />
+    <Compile Include="Default\1492086107_CreateUserTable.cs" />
+    <Compile Include="Default\1492086625_CreateRolesTable.cs" />
+    <Compile Include="Default\1492086766_CreateUserRolesTable.cs" />
+    <Compile Include="Default\1492086863_CreateStudentsTable.cs" />
+    <Compile Include="Default\1492087055_CreateTeachersTable.cs" />
+    <Compile Include="Default\1492087060_CreateClassTable.cs" />
+    <Compile Include="Default\1492087328_CreateStudentClassTable.cs" />
+    <Compile Include="Default\1492087459_CreateStudentClassHistoryTable.cs" />
     <Compile Include="Default\Migration_1.cs" />
+    <Compile Include="Extensions\MigrationExtensions.cs" />
+    <Compile Include="MigrationTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
