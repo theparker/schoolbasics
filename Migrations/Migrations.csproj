@@ -66,6 +66,9 @@
     <Compile Include="Default\1492087328_CreateStudentClassTable.cs" />
     <Compile Include="Default\1492087459_CreateStudentClassHistoryTable.cs" />
     <Compile Include="Default\1492087704_CreateAcademicYearTable.cs" />
+    <Compile Include="Default\1492174181_CreateBillingTemplateTable.cs" />
+    <Compile Include="Default\1492174170_CreateUtilitiesTable.cs" />
+    <Compile Include="Default\1492174655_CreateBillingTable.cs" />
     <Compile Include="Default\Migration_1.cs" />
     <Compile Include="Extensions\MigrationExtensions.cs" />
     <Compile Include="MigrationTable.cs" />

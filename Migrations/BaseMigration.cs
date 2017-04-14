@@ -15,5 +15,10 @@ namespace Migrations
         {
             this._table = ! string.IsNullOrWhiteSpace(this._prefix)? $"{_prefix}_{_table}": table;
         }
+
+        public override void Down()
+        {
+            this.Delete.Table(this._table);
+        }
     }
 }
